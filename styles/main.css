@@ -96,7 +96,7 @@ main > aside {
 }
 
 main aside p {
-	text-align: left;
+	/*text-align: left;*/
   padding-bottom: 2.5%;
   font-size: 1em;
 }
@@ -110,7 +110,24 @@ main aside p {
 
 
 /**/
-/**/
+/*tutorials*/
+.padtop {
+  padding-top: 50px;
+}
+
+.tutlink {
+  color:blue;
+}
+
+/*Jobs*/
+
+.jobcol {
+
+}
+
+.jobcol < p {
+  padding-left: 20px;
+}
 
 
 /*Footer*/
