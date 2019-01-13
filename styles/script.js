@@ -12,7 +12,7 @@ function onLoad () {
   var headElement = document.getElementsByTagName("head")[0];
 
   //Create title
-  var titleElement = document.createElement("title");
+  var titleElement = document.getElementsByTagName("title")[0];
 
   //Create titlke icon
   var titleIcon = document.createElement("link");
@@ -31,7 +31,6 @@ function onLoad () {
 
   console.log(filename);
   //Add to head element
-  headElement.appendChild(titleElement);
   headElement.appendChild(titleIcon);
 
   //edit icon attributes
